@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width:100px;
+    background-color: brown;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transform: rotate(180deg);
+}
+div:hover{
+    background-color: aquamarine;
+    color:blueviolet;
+    transform: translateX(200px);
+
+
+}
